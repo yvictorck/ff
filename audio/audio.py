@@ -56,7 +56,7 @@ i = 0
 
 while i<len(audionames):
   filename = audionames[i]+'.wav'
-  fs,rawdata = read(filename)
+  fs,rawdata  = read(filename)
   data=rawdata[0:dlen]
 
   alldata.append([data])
