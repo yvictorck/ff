@@ -44,7 +44,7 @@ figs=[]
 mylay=[]
 dlen=1000
 cumdata=np.zeros([1,dlen])
-alldata= []
+alldata = []
 x1 =  np.linspace(0,dlen-1,dlen, endpoint=True)
 fs=44100
 bits_mag=16
