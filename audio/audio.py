@@ -16,6 +16,7 @@ from os.path import isfile, isdir, join
 
 from bokeh.palettes import Category10 as palette
 from bokeh.palettes import turbo
+output_file("audio.html")
 
 mypath = "./"
 
@@ -116,7 +117,6 @@ mylay.append(fig)
 
 
 g=gridplot(mylay, ncols=3)
-output_file("audio.html")
 save(g,title='audio')
 
 
